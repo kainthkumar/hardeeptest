@@ -11,8 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
-        server: 
-              - 178.128.132.146
-              - 138.197.226.75
+        server: 138.197.226.75
         username: zoptalftp
         password: ${{ secrets.ftp_password }}
